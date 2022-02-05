@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans|Roboto&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  margin: 20px;
+}
+
+.header{
+  display: flex;
+  justify-content: space-between; 
+  align-items: center;
+  width: 100%;
+  height: auto;
+}
+
+.google_meet{
+  width: 150px;
+  height: auto;
+}
+
+.header .section2{
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header .section2 .section2_section1{
+  display: flex;
+  justify-content: space-between;
+}
+
+.section2_section1_content1{
+  margin: 20px 0px 20px 20px;
+}
+
+.section2_section1_content2{
+  margin: 20px 40px 20px 20px;
+}
+
+.fa-question-circle, .fa-comment-alt, .fa-cog{
+  margin: 0px 20px;
+}
+
+.header .section2 .section2_section2{
+  display: flex;
+  justify-content: space-between;
+} 
+
+
+.header .section2 .section2_section2 .section2_section2_content{
+  margin: 20px;
+  position: relative;
+}
+
+.fa-th{
+  position: absolute;
+  top: 13px;
+  right: 60px;
+}
+
+.header .section2 .section2_section2 .section2_section2_content
+.photo{
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+
+/* Header ends */
+/* Main CSS starts*/
+
+.main{
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin: 20px;
+}
+
+.main .container1, .main .container2{
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  padding: 100px 50px 30px 30px;
+}
+
+.main .container2{
+  align-items: center;
+}
+
+.main .container1 .button{
+  display: flex;
+  justify-content: flex-start;
+  gap: 20px;
+}
+
+.main .container1 .button .btn1{
+  border: 1px solid black;
+  padding: 10px;
+  color: white;
+  background: blue;
+  border-radius: 5px;
+}
+
+.main .container1 .button .btn2{
+  border: 1px solid black;
+  padding: 10px;
+  color: black;
+  background: white;
+  border-radius: 5px;
+  width: 50%
+}
+
+hr{
+  margin: 40px 0px;
+}
+
+.center{
+  text-align: center;
+  padding: 0px 90px;
+}
+
+.circle{
+  border-radius: 50%;
+  display: inline-block;
+  height: 6px;
+  margin: 0 4px;
+  width: 6px;
+  border: 0.5px solid rgba(51, 49, 49, 0.199);
+}
+
+.circle1{
+  background: rgb(143, 143, 224);
+}
+
+.circle2{
+  background: rgb(196, 188, 188);
+}
