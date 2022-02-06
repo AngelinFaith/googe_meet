@@ -94,7 +94,7 @@ p{
   display: flex;
   justify-content: space-between;
   width: 100%;
-  margin: 20px;
+  margin: 20px 0px;
 }
 
 .main .container1, .main .container2{
@@ -417,8 +417,8 @@ hr{
     display: block;
   }
 
-  .main .container1{
-    margin-top: 0px;
+  .main .container1,.main .container2{
+    margin: 50px 0px;
   }
 
   hr{
@@ -441,4 +441,5 @@ hr{
     font-size: 20px;
     padding-right: 90px;
   }
+
 }
